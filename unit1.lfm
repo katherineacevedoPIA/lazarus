@@ -1,26 +1,76 @@
 object Form1: TForm1
-  Left = 991
-  Height = 240
-  Top = 299
+  Left = 1004
+  Height = 500
+  Top = 228
   Width = 320
-  Caption = 'Form1'
-  ClientHeight = 240
+  Caption = 'Salvadanaio di Katherine'
+  ClientHeight = 500
   ClientWidth = 320
-  LCLVersion = '4.6.0.0'
-  object Button1: TButton
-    Left = 112
-    Height = 25
-    Top = 80
-    Width = 75
-    Caption = 'Button1'
+  Color = 15126258
+  LCLVersion = '4.2.0.0'
+  object Label1: TLabel
+    Left = 34
+    Height = 15
+    Top = 22
+    Width = 133
+    Caption = 'Che cosa vuoi comprare?'
+  end
+  object Edit1: TEdit
+    Left = 221
+    Height = 23
+    Top = 26
+    Width = 80
     TabOrder = 0
+    Text = 'Vestiti'
+  end
+  object Label2: TLabel
+    Left = 34
+    Height = 15
+    Top = 58
+    Width = 108
+    Caption = 'Quanto costa(euro)?'
+  end
+  object Edit2: TEdit
+    Left = 233
+    Height = 23
+    Top = 67
+    Width = 80
+    TabOrder = 1
+    Text = '50'
+  end
+  object Button1: TButton
+    Left = 34
+    Height = 33
+    Top = 106
+    Width = 115
+    Caption = 'Una settimana'
+    TabOrder = 2
     OnClick = Button1Click
   end
-  object Label1: TLabel
-    Left = 32
-    Height = 15
-    Top = 40
+  object Button2: TButton
+    Left = 34
+    Height = 33
+    Top = 152
+    Width = 150
+    Caption = 'Quanti giorni mi servono?'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 34
+    Height = 33
+    Top = 200
+    Width = 154
+    Caption = 'Con la paghetta'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Memo1: TMemo
+    Left = 43
+    Height = 222
+    Top = 258
     Width = 223
-    Caption = 'Ho pensato a un numero da 1 a 10. Quale?'
+    ScrollBars = ssVertical
+    TabOrder = 5
   end
 end
