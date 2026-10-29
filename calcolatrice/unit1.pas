@@ -17,6 +17,8 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -36,12 +38,12 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-      Edit3.Text := IntToStr(StrToInt(Edit1.Text) * StrToInt(Edit2.Text));
+  Edit3.Text := IntToStr(StrToInt(Edit1.Text) + StrToInt(Edit2.Text));
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
-   Edit3.Text := IntToStr(StrToInt(Edit1.Text) + StrToInt(Edit2.Text));
+          Edit3.Text := IntToStr(StrToInt(Edit1.Text) * StrToInt(Edit2.Text));
 end;
 
 end.

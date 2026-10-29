@@ -1,52 +1,67 @@
 object Form1: TForm1
-  Left = 969
+  Left = 923
   Height = 240
-  Top = 236
-  Width = 350
-  Caption = 'Form1'
+  Top = 205
+  Width = 471
+  Caption = 'Calcolatrice di Katherine'
   ClientHeight = 240
-  ClientWidth = 350
+  ClientWidth = 471
+  Color = 16764153
   LCLVersion = '4.2.0.0'
+  object Label1: TLabel
+    Left = 22
+    Height = 15
+    Top = 29
+    Width = 34
+    Caption = 'Label1'
+  end
   object Edit1: TEdit
-    Left = 29
+    Left = 13
     Height = 23
-    Top = 43
+    Top = 59
     Width = 80
     TabOrder = 0
-    Text = 'n1'
-  end
-  object Edit2: TEdit
-    Left = 256
-    Height = 23
-    Top = 41
-    Width = 80
-    TabOrder = 1
-    Text = 'n2'
-  end
-  object Edit3: TEdit
-    Left = 149
-    Height = 23
-    Top = 144
-    Width = 80
-    TabOrder = 2
-    Text = 'totale'
+    Text = 'Edit1'
   end
   object Button1: TButton
-    Left = 136
+    Left = 127
     Height = 25
-    Top = 72
+    Top = 63
     Width = 75
-    Caption = 'x'
-    TabOrder = 3
+    Caption = '+'
+    TabOrder = 1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 136
+    Left = 232
     Height = 25
-    Top = 39
+    Top = 63
     Width = 75
-    Caption = '+'
-    TabOrder = 4
+    Caption = 'x'
+    TabOrder = 2
     OnClick = Button2Click
+  end
+  object Label2: TLabel
+    Left = 352
+    Height = 15
+    Top = 35
+    Width = 34
+    Caption = 'Label2'
+  end
+  object Edit2: TEdit
+    Left = 360
+    Height = 23
+    Top = 73
+    Width = 80
+    TabOrder = 3
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 185
+    Height = 23
+    Top = 144
+    Width = 80
+    TabOrder = 4
+    Text = 'Edit3'
   end
 end
